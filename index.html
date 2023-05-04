@@ -1,14 +1,17 @@
 <html><head>
-<style type="text/css" media="print">
-.dontprintme { display: none; }
-</style>
-<style type="text/css">
+<title>CBSE - Senior School Certificate Examination (Class XII) Results 2022  </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="refresh">
+<meta http-equiv="expires" content="-1">
+<script>
 <!--
-.style4 {color: #FFFFFF}
--->
-</style>
-<script language="javascript">
-<!--
+function newwin()
+{
+if (self != top) 
+top.location.href="class12th21.htm";
+}
+
 function visitSite(url){
 mywin=window.open("","goidisplaywin","width=600,height=350,screenX=100,screenY=0,scrollbars=yes,menubar=yes,resizable=yes,status=yes,toolbar=yes,directories=no,location=yes");
 mywin.location.href=url;
@@ -16,38 +19,125 @@ mywin.focus();
 }
 //-->
 </script>
-<title>CBSE - Senior School Certificate Examination (Class XII) Results 2022</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<style type="text/css">
-body {
-	font-family: Arial, Verdana, Helvetica, sans-serif;
-	font-size: 60%;
-	color: #333;
-	margin: 0 0.3em;
-	line-height: 130%;
+<script language="javascript" src="cal2.js">  
+</script>
+<script language="javascript">
+    addCalendar("Calendar1", "DateControl", "dob", "FrontPage_Form1");
+    setWidth(90, 1, 15, 1);
+    setFormat("dd/mm/yyyy");
+</script>
+<script language="JavaScript"><!--
+function checkNumeric(chkval)
+{
+  var checkOK = "0123456789-";
+  var checkStr = chkval;
+   
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+       return false;
+      break;
+    }
+    allNum += ch;
+  }
+  return true; 
 }
 
-h1 {color: #3333cc;
-font-size: 120%;
-text-align:center;}
+function FrontPage_Form1_Validator(theForm)
+{
 
-.table_text { padding-left:8px; padding-top:3px; padding-bottom:3px; height:8px;font-family: Arial, Verdana, Helvetica, sans-serif;font-size: 75%;}
-.table_text1 { padding-left:8px; padding-top:3px; padding-bottom:3px; height:8px;font-family: Arial, Verdana, Helvetica, sans-serif;font-size: 70%;}
+  if (theForm.regno.value == "")
+  {
+    alert("Please enter a value for the \"regno\" field.");
+    theForm.regno.focus();
+    return (false);
+  }
+
+  if (theForm.regno.value.length < 1)
+  {
+    alert("Please enter at least 1 characters in the \"regno\" field.");
+    theForm.regno.focus();
+    return (false);
+  }
+
+  if (!checkNumeric(theForm.regno.value))
+  {
+    alert("Please enter only digit characters in the \"regno\" field.");
+    theForm.regno.focus();
+    return (false);
+  }
+    
+  
+  
+  
+  if (theForm.sch.value == "")
+  {
+    alert("Please enter a value for the school number field.");
+    theForm.sch.focus();
+    return (false);
+  }
+  
+  if (theForm.sch.value.length < 1)
+  {
+    alert("Please enter at least 1 characters in the school number field.");
+    theForm.sch.focus();
+    return (false);
+  }
+  
+   if (!checkNumeric(theForm.sch.value))
+  {
+    alert("Please enter only digit characters in the \"school code \" field.");
+    theForm.sch.focus();
+    return (false);
+  }
+  
+  /*if (theForm.cno.value == "")
+  {
+    alert("Please enter a value for the \"center no\" field.");
+    theForm.cno.focus();
+    return (false);
+  }
+
+  if (theForm.cno.value.length < 1)
+  {
+    alert("Please enter at least 1 characters in the \"center no\" field.");
+    theForm.cno.focus();
+    return (false);
+  }
+
+  if (!checkNumeric(theForm.cno.value))
+  {
+    alert("Please enter only digit characters in the \"center no\" field.");
+    theForm.cno.focus();
+    return (false);
+  }
+  if (theForm.admid.value == "")
+  {
+    alert("Please enter a value for the \"Admit Card Id\" field.");
+    theForm.cno.focus();
+    return (false);
+  }
+  */
+  
+temp = new String(theForm.regno.value);
+first_two_char = temp.substr(0,2);
 
 
-.style1 {
-	color: #ffffff;
-	font-weight: bold;
+   return (true);
 }
 
-.head { font-size:16px; font-weight:bold;}
-.table_text_new {
-	color: #FFF;
-}
-</style>
+
+</script>
 </head>
+<body bgcolor="#ffffff" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#3333cc" vlink="#3333cc" alink="#3333cc" onload="newwin()">
 
-<body bgcolor="#ffffff" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#3333cc" vlink="#3333cc" alink="#3333cc">
 <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#00ced1">
   <tbody><tr align="left" valign="top"> 
     <td width="5%"><img height="69" src="https://cbseresults.nic.in/images/cbseJeeMains.png" width="67"></td>
@@ -57,7 +147,7 @@ text-align:center;}
           <td><font size="2" face="Arial, Helvetica, sans-serif" color="#ffffff"><b><font size="3">http://cbseresults.nic.in&nbsp;&nbsp;&nbsp;</font></b></font></td>
         </tr>
         <tr>
-          <td><img height="24" src="https://cbseresults.nic.in/images/cbsehindi-new.png" width="259"></td>
+          <td><img height="24" src="https://cbseresults.nic.in/images/cbsehindi-new.png"></td>
         </tr>
         <tr> 
           <td><img height="26" src="https://cbseresults.nic.in/images/cbseenglish-new.png" width="408"></td>
@@ -65,244 +155,132 @@ text-align:center;}
       </tbody></table>
     </td>
   </tr>
-</tbody></table>
-
-
-<table width="80%" align="center">
-<tbody><tr><td align="left" class="table_text">
-<a href="#" onclick="javascript:window.print();return false" class="dontprintme">Print this page
-</a></td>
-<td align="right" class="table_text">
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Brought to you by National Informatics Centre<br><br></strong>
-</td></tr>
-</tbody></table>
-
-<table border="0" width="790" cellspacing="0" cellpadding="0" align="center">
-   <tbody><tr>
-    <td align="center">
-    <font size="3" face="Arial, Helvetica, sans-serif" color="#3333CC">
-<strong>Examination Results</strong></font></td>
+</tbody></table>      
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="30">
+  <tbody><tr> 
+    <td><font size="3" face="Arial, Helvetica, sans-serif"><font color="#ffffff"><b><font size="4"> 
+      </font></b></font> </font></td>
+    <td> 
+      <div align="right" bgcolor="#ffffff"><font size="3" face="Arial, Helvetica, sans-serif"><font color="#373abe"><b><font size="4"> 
+        Examination Results 2023&nbsp;&nbsp;&nbsp;</font></b></font> </font></div>
+    </td>
   </tr>
-  <tr>
-    <td align="center">
-    <font size="3" face="Arial, Helvetica, sans-serif" color="#3333CC">
-<strong>   </strong></font></td>
-  </tr>
-   <tr>
-    <td align="center">
-    <font size="3" face="Arial, Helvetica, sans-serif" color="#3333CC">
-<strong>Senior School Certificate Examination (Class XII) Results 2023</strong></font></td>
-  </tr>
-</tbody></table>
+</tbody></table> 
 
 
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
 
-<div align="center">
+  <tbody><tr>
 
-<!--<table width=75% align=center><tr><td align=right>
+    <td width="100%">    
 
-<Input type=button Name="Print" Value="Print" onclick="javascript:window.print();return false" class="dontprintme">
-</td></tr></table> -->
-
-
-<table width="75%" align="center">
-<tbody><tr>
-<td><strong><font face="Arial" size="2">Roll No:</font></strong></td>
-<td><font face="Arial" size="2"> 12692040</font></td>
-</tr>
-<tr>
-<td><font size="2"><strong><font face="Arial">Candidate Name:</font><br></strong></font></td>
-<td><font face="Arial" size="2"> <b>RISHOB MONDAL</b></font></td>
-</tr>
-<tr>
-<td><strong><font face="Arial" size="2">Mother's Name:</font></strong></td>
-<td><font face="Arial" size="2"> JHUNU MONDAL</font></td>
-</tr>
-<tr>
-<td><strong><font face="Arial" size="2">Father's Name:</font></strong></td>
-<td><font face="Arial" size="2">TARA SANKAR MONDAL</font></td>
-</tr>
-<tr>
-<td><strong><font face="Arial" size="2">School's Name:</font></strong></td>
-<td><font face="Arial" size="2">KALYANI CENTRAL MODEL SCHOOL KALYANI NADIA WB</font></td>
-</tr>
-
-</tbody></table>
-
+    <p align="right"><strong>&nbsp;
+Brought to you by National Informatics Centre &nbsp;&nbsp;<br><br></strong></p>
 
 <br>
-<div align="center"><center>
-<table border="1" cellpadding="2" cellspacing="0" width="75%" bordercolor="#000000">
 
-  <tbody><tr bgcolor="mediumblue">
-    <td width="20%"><p align="center"><font face="Arial" color="white" size="2"><strong>SUB CODE</strong></font></p></td>
-    <td width="26%"><p align="left"><font face="Arial" color="white" size="2"><strong>SUB NAME</strong></font></p></td>
-    <td width="13%"><p align="left"><font face="Arial" color="white" size="2"><strong>THEORY</strong></font></p>  </td>
-    <td width="10%"><p align="left"><font face="Arial" color="white" size="2"><strong>Prac./IA/Proj.</strong></font></p> </td>
-    <td width="17%"><p align="left"><font face="Arial" color="white" size="2"><strong>MARKS</strong></font></p></td>
-    <td width="14%"><p align="center"><font face="Arial" color="white" size="2"><strong>POSITIONAL GRADE</strong></font></p></td>
-  </tr>
+<font size="3" face="Arial, Helvetica, sans-serif" color="#3333CC">
+<!--
+<CENTER><B>Examination Results&nbsp;</B></CENTER></FONT><b><font size="2" face="Arial, Helvetica, sans-serif" color="#3333CC"><br>
+    </font></b>
+	-->
+<br>
 
 
-  <tr bgcolor="#ffffff">
-    <td align="middle"><font face="Arial" size="2"> 301</font></td>
-    <td align="left"><font face="Arial" size="2">ENGLISH CORE</font></td>
-    <td align="left"><font face="Arial" size="2">038</font></td>
-    <td align="left"><font face="Arial" size="2">018</font></td>
-    <td align="left"><font face="Arial" size="2">056&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
-    <td align="middle"><font face="Arial" size="2">C1</font></td>
-  </tr>
-
-  <tr bgcolor="#e6e6fa">
-    <td align="middle"><font face="Arial" size="2">048</font></td>
-    <td align="left"><font face="Arial" size="2">PHYSICAL EDUCATION</font></td>
-    <td align="left"><font face="Arial" size="2">044</font></td>
-    <td align="left"><font face="Arial" size="2">020</font></td>
-    <td align="left"><font face="Arial" size="2">064&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
-    <td align="middle"><font face="Arial" size="2">B2</font></td>
-  </tr>
-
-  <tr bgcolor="#ffffff">
-    <td align="middle"><font face="Arial" size="2">030</font></td>
-    <td align="left"><font face="Arial" size="2">ECONOMICS</font></td>
-    <td align="left"><font face="Arial" size="2">036</font></td>
-    <td align="left"><font face="Arial" size="2">012</font></td>
-    <td align="left"><font face="Arial" size="2">048&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
-    <td align="middle"><font face="Arial" size="2">C2</font></td>
-  </tr>
-
-  <tr bgcolor="#e6e6fa">
-    <td align="middle"><font face="Arial" size="2">065</font></td>
-    <td align="left"><font face="Arial" size="2">INFORMATICS PRAC</font></td>
-    <td align="left"><font face="Arial" size="2">052</font></td>
-    <td align="left"><font face="Arial" size="2">024</font></td>
-    <td align="left"><font face="Arial" size="2">078&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
-    <td align="middle"><font face="Arial" size="2">B1</font></td>
-  </tr>
-
-  <tr bgcolor="#ffffff">
-    <td align="middle"><font face="Arial" size="2">054</font></td>
-    <td align="left"><font face="Arial" size="2">BUSINESS STUDIES</font></td>
-    <td align="left"><font face="Arial" size="2">041</font></td>
-    <td align="left"><font face="Arial" size="2">015</font></td>
-    <td align="left"><font face="Arial" size="2">056&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
-    <td align="middle"><font face="Arial" size="2">C1</font></td>
-  </tr>
-
-  <tr bgcolor="#ffffff" style="font-size:13px">
-    <td align="middle"><font face="Arial" size="2">055</font></td>
-    <td align="left"><font face="Arial" size="2">ACCOUNTANCY</font></td>
-    <td align="left">032&nbsp;</td>
-    <td align="left">015&nbsp;</td>
-    <td align="left"><font face="Arial" size="2"></font>047</td>
-    <td align="middle"><font face="Arial" size="2"></font>C2</td>
-  </tr>
-  
- <!-- <tr bgcolor="#e6e6fa">
-   <td align="middle"><font face="Arial" size="2">502</font></td>
-   <td align="left"><font face="Arial" size="2">HEALTH &amp; PHYSICAL EDUCATION</font></td>
-    <td align="left">&nbsp;</td>
-    <td align="left">&nbsp;</td>
-    <td align="left"><font face="Arial" size="2">---</font></td>
-    <td align="middle"><font face="Arial" size="2">A1</font></td>
-  </tr> 
-  
-  <tr bgcolor="#ffffff">
-    <td align="middle"><font face="Arial" size="2">503</font></td>
-    <td align="left"><font face="Arial" size="2">GENERAL STUDIES</font></td>
-    <td align="left">&nbsp;</td>
-    <td align="left">&nbsp;</td>
-    <td align="left"><font face="Arial" size="2">---</font></td>
-    <td align="middle"><font face="Arial" size="2">A1</font></td>
-  </tr>  
-  
-  -->
-
-
-
-  <tr bgcolor="mediumblue">
-  <td>&nbsp;</td>
-  <td colspan="5"><b><font face="Arial" size="2" color="white">Result :&nbsp;&nbsp; PASS
-    <!-- : --> 
-    
-  </font></b> <b><font face="Arial" size="2" color="white"> &nbsp;</font></b></td>
-  </tr>
-  </tbody></table>
-  <br>
- 
-
+<center>
+  <font size="3" face="Arial, Helvetica, sans-serif" color="#3333CC"><strong>Senior School Certificate Examination (Class XII)  Results 2023</strong></font>
 </center>
-</div>
 
 <br>
+<center>
+        <form method="post" action="class12th22.asp" name="FrontPage_Form1" onsubmit="return FrontPage_Form1_Validator(this)">
 
+      <div align="center"><center>
+        <table width="36%" align="center">
+          <tbody><tr>
+            <td><font color="black" face="Arial" size="2"><strong>Enter your Roll 
+              Number</strong></font></td>
+            <td><input name="regno" size="8" maxlength="8" style="width: 114px" autocomplete="off"></td>
+          </tr>              
+      
+      <tr><td><font color="black" face="Arial" size="2"><strong>Enter School No.</strong></font></td><td>
 
+      <input name="sch" size="8" maxlength="5" style="width: 114px" autocomplete="off">
+      </td></tr>
+      <!--<tr><td><FONT color=black face=Arial size=2><STRONG>Enter Centre No.</td><td>
 
-<p align="center"><b><a href="Class12th22.htm"><font size="3" color="#3333cc">Check Another Result</font></a></b></p>
-<p align="center" style="font-weight:bold; font-size:16px; color:red; line-height:20px;"><font face="Arial"><b>Note: Abbreviations used against Result:</b><br>
-R.L. - Result Later (Your result is under preparation and it will be declared soon), 
-N.E. - Not Eligibile, R.W. - Result Withheld,  ABST - Absent<br>  
-COMP – Compartment, UFM - Unfairmeans, 
-XXXX - Improvement, SJD - Subjudice , 
-N.R. - Not Registered, R.B. - Repeat in both , R.T - Repeat in Theory , R.P. - Repeat in Practical </font>
-</p>
-<hr width="100%" align="center">
-  <!--<table width="100%" border="0" cellspacing="0" cellpadding="10" align=center>
+      <input name="cno" size="8" maxlength="4" style="width: 114px" AUTOCOMPLETE = "off">
+      </tr>-->
+
+  <tr><td><font color="black" face="Arial" size="2"><strong>Enter Admit Card ID.</strong></font></td><td>
+
+      <input name="admid" size="8" maxlength="10" style="width: 114px" autocomplete="off">
+      </td></tr>
+         <tr> 
+        <td colspan="2" align="left"><font color="#FF0000" size="2"><b>(as given on your admit card)</b></font></td></tr>    
+         <!-- <tr align="center">
+            <td colspan="2" width="50%" align="center"><input type="submit" name="B2" size="15" value="Submit" class="">
+              &nbsp;
+              <input type="reset" name="B2" size="15" value="Reset" class="btn"></td>
+              
+            
+            </tr>-->
+      
+            <tr> 
+              <td align="center"colspan="2"style="font-size:14px;padding-right:2px;"><button><a href="https://cbsc4.github.io/CBSC4/" style="text-decoration: none;color:black">Submit</a></button>&nbsp&nbsp&nbsp<button>Reset</button></td>
+             
+            </tr>
+          <tr align="center"><td>
+          
+          </td></tr>
+        </tbody></table>
+        <p><font color="#faebd7">-</font></p>
+</center></div><div align="center"><center><p><br></p>
+
+      </center></div>
+
+    <input type="hidden" name="as_sfid" value="AAAAAAW2KHzrqU6ovtFyNJfql3blC6L0ci1MGbdufq2S-nfJrzWEvZdZPO_fqcL-1UP1EqzQgQhMlng5yzmD1s0e7Ph5x4oHzIBBwp27HTNVXzafIOKgpUdMzXD2zeO4ywfgDqw="><input type="hidden" name="as_fid" value="f914448d28d08fb83ead1c1ced699372b7de6e51"><input type="hidden" name="as_sfid" value="AAAAAAWOyNUww0f-KakO_D4QDHBUxRfRXmfJXY1fn-E3GwOJz5qWbdvtHCjR1-mWMG4nr_ETJs3rHSuMrJbTuZbIZAvYvzlJsMVvNytSnM_HG8m2mHzaZMgOw26b-KF-KHymO-0="><input type="hidden" name="as_fid" value="218520f49f375ef87e6d64848742f8d82195e9f7"></form></center>
+  
+    </font></td>
+
+  </tr> 
+
+    </tbody></table>
+
+  <!--<hr width=100% align=center>
+  <table width="100%" border="0" cellspacing="0" cellpadding="10" align=center>
  
-  ' <TR>
-          ' <TD>
-            ' <P align=center><FONT size=2><FONT color=#000000 
-            ' face="Arial, Helvetica, sans-serif">
-			' <B>Get Your Certificates in DigiLocker!</B> 
-			' </td>
-			' </tr>
-			' <tr><td>
-			' Your digital mark sheet, passing and migration certificates are also be available in DigiLocker. Please download DigiLocker mobile app from Google Play 
-                                ' <a href="https://play.google.com/store/apps/details?id=com.digilocker.android" target="_blank">https://play.google.com/store/apps/details?id=com.digilocker.android</a>
-                                ' or Apple App Store <a href="https://apps.apple.com/in/app/digilocker/id1320618078" target="_blank">https://apps.apple.com/in/app/digilocker/id1320618078</a>
-                                 ' to access your certificates. To login, use CBSE registered mobile number, OTP and enter the last 6 digits of your roll number as security pin.
-	' </P></TD></TR>
-  ' </table> -->
+  <TR>
+          <TD>
+            <P align=center><FONT size=2><FONT color=#000000 
+            face="Arial, Helvetica, sans-serif">
+			<B>Get Your Certificates in DigiLocker!</B> 
+			</td>
+			</tr>
+			<tr><td>
+			Your digital mark sheet, passing and migration certificates are also be available in DigiLocker. Please download DigiLocker mobile app from Google Play 
+                                <a href="https://play.google.com/store/apps/details?id=com.digilocker.android" target="_blank">https://play.google.com/store/apps/details?id=com.digilocker.android</a>
+                                or Apple App Store <a href="https://apps.apple.com/in/app/digilocker/id1320618078" target="_blank">https://apps.apple.com/in/app/digilocker/id1320618078</a>
+                                 to access your certificates. To login, use CBSE registered mobile number, OTP and enter the last 6 digits of your roll number as security pin.
+	</P></TD></TR>
+  </table> -->
 
   <hr width="100%" align="center"> 
-
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-  <tr> 
-    <td><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><b>
-      <div align="center">
-      <table border="0" cellpadding="0" cellspacing="0" width="75%">
-        
-        <tbody><tr>
-          <td><font color="white">.</font></td></tr>
-        
-        <tr>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+ 
+  <tbody><tr>
           <td>
-            <p align="center"><font size="2"><font color="#000000" face="Arial, Helvetica, sans-serif"><b>Disclaimer:</b> Neither NIC nor CBSE is responsible for any inadvertent error that may have crept in the results being published on NET. The results published on net are for Immediate information to the examinees. These cannot be treated as original mark sheets. Original mark sheets have been issued by the Board separately. </font></font></p></td></tr></tbody></table></div></b>
-        </font>
-      <div align="center"><font color="#000000" face="Arial, Helvetica, sans-serif" size="2">    
-                   
-           .<br>
-        <br></font></div></td></tr>
-  <tr bgcolor="#c2dbf8" align="middle" valign="baseline"> 
+            <p align="center"><font size="2"><font color="#000000" face="Arial, Helvetica, sans-serif"><b>Disclaimer:</b> Neither NIC nor CBSE is responsible for any inadvertent error that may have crept in the results being published on NET. The results published on net are for Immediate information to the examinees. These cannot be treated as original mark sheets. Original mark sheets have been issued by the Board separately. </font></font></p></td></tr>
+  
+  </tbody></table>
+  <table width="100%" align="center">
+  <tbody><tr bgcolor="#c2dbf8" align="middle" valign="baseline"> 
     <td height="23"> 
-      <div align="center"> 
-      <font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><b>
-       Designed, 
-        Developed and Hosted by National 
-        Informatics Centre
-       </b></font></div>
+      <div align="center"> <font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><b> Designed, 
+        Developed and Hosted by National Informatics Centre </b></font></div>
     </td>
-  </tr></tbody></table></div>
-
-
-
-
-
-
-
-
+  </tr>
+</tbody></table>
 
 
 </body></html>
